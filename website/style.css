@@ -1,0 +1,214 @@
+#dropdownn{
+  background-color: #ffffff !important;
+  
+} 
+
+#offcanvasDarkNavbar, .offcanvas-body {
+  background: rgba(255, 255, 255, 0.8); /* Example background color for offcanvas menu */
+  backdrop-filter: initial !important;
+  -webkit-backdrop-filter: initial !important;
+  /* You can also remove the backdrop-filter property altogether for the offcanvas menus */
+}
+#navv {
+  background: rgba(255, 255, 255, 0) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(9.2px) !important;
+  -webkit-backdrop-filter: blur(9.2px) !important;
+  color: #1d1d1d!important;
+}
+.offcanvas-body {
+  backdrop-filter: initial !important; /* Reset backdrop-filter for offcanvas menus */
+  -webkit-backdrop-filter: initial !important;
+  /* You can also remove the backdrop-filter property altogether if not needed */
+}
+
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+body {
+  
+  max-width: 100%;
+  background-color: #D9D9D9;
+  font-family: "IBM Plex Sans" !important; 
+  color: #1d1d1d !important;
+}
+
+#title {
+  font-size: 2.2rem;
+}
+
+#desc2{
+  font-size: 1.2rem;
+}
+
+ #description{
+  font-size: 1.8rem;
+
+}
+
+#profilepic {
+  max-width: 20rem; /* Set the maximum width */
+  overflow: hidden;
+  display: flex;
+  justify-content: start; /* Center the content horizontally */
+  align-items: start; /* Center the content vertically */
+ 
+}
+
+
+#img-cover{
+
+  width: 8rem;
+  height: 8rem;
+ 
+}
+/* *{
+  outline: red 1px solid;
+} */
+
+#descriptionMain{
+  font-size: 1.2rem
+}
+
+
+
+
+/* @media (min-width: 768px){
+  #profilepic{
+    min-height: 20rem;
+    max-height: 30rem;
+  } */
+  
+  #blur
+    {
+filter: blur(10px);
+  }
+
+  #icon-row {
+    margin-bottom: 20px;
+}
+
+.icon-link {
+    margin: 0 10px;
+}
+
+.icon-link img {
+    width: 2rem; /* Adjust the size as needed */
+    height: 2rem; /* Adjust the size as needed */
+}
+
+#main {
+  margin-top: 5rem !important;
+}
+
+#card-img{
+  min-width: 15rem;
+  min-height: 15rem;
+  width: auto;
+  height: auto;
+  max-height: 35rem;
+  max-width: 35rem;
+  object-fit: cover;
+  margin: auto;
+}
+
+.desc {
+  font-size: 2.0rem;
+}
+
+#imgcont{
+  height: 10rem;
+}
+
+.ibm-plex sans-thin {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex sans-extralight {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex sans-light {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex sans-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex sans-medium {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex sans-semibold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex sans-bold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex sans-thin-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex sans-extralight-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex sans-light-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex sans-regular-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex sans-medium-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex sans-semibold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex sans-bold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
