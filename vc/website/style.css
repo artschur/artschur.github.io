@@ -1,0 +1,46 @@
+@font-face {
+  font-family: NeueHaas;
+  src: url(src/font/NeueHaasDisplay-Bold.ttf);
+}
+
+body {
+  font-family: NeueHaas !important;
+  width: 100%;
+}
+
+#title {
+  font-size: 5rem;
+}
+
+img {
+  object-fit: cover;
+  width: 342px !important;
+}
+
+#separator {
+  background: #141414;
+  max-width: 20px;
+}
+#main {
+  margin-top: 5rem !important;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#desc {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 425px) {
+  #title {
+    font-size: 5em !important;
+  }
+  #imgcont {
+    width: 30rem;
+    height: 30rem;
+  }
+}
