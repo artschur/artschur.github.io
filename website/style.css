@@ -1,7 +1,30 @@
+@font-face {
+  font-family: "SF Text Regular";
+  src: url(src/font/sf/SF-Pro-Text-Regular.otf);
+}
+
+@font-face {
+  font-family: "SF Text Semibold";
+  src: url(src/font/sf/SF-Pro-Text-Semibold.otf);
+}
+
+@font-face {
+  font-family: "SF Display Regular";
+  src: url(src/font/sf/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+  font-family: "SF Display Bold";
+  src: url(src/font/sf/SF-Pro-Display-Bold.otf);
+}
+
+
+
 #dropdownn{
   background-color: #ffffff !important;
   
 } 
+
 
 #offcanvasDarkNavbar, .offcanvas-body {
   background: rgba(255, 255, 255, 0.8); /* Example background color for offcanvas menu */
@@ -38,22 +61,57 @@ body {
   
   max-width: 100%;
   background-color: #D9D9D9;
-  font-family: "IBM Plex Sans" !important; 
+  font-family: "SF Display Regular" !important; 
   color: #1d1d1d !important;
 }
 
+
+
+#Timeless{
+  font-family: "SF Display Bold" !important; 
+  letter-spacing: .2rem;
+  color: #3d3d3d;
+}
+
 #title {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
+  font-family: "SF Display Bold" !important; 
+  margin-top: 2rem;
 }
 
 #desc2{
   font-size: 1.2rem;
+
 }
 
  #description{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+margin-top: 5rem;
 
 }
+
+#icons{
+  margin-top: 1rem;
+}
+
+#projectsSect{
+  margin-top: 7rem;
+}
+
+#projects{
+  font-family: "SF Display Bold" !important; 
+  font-size: 2.1rem;
+}
+
+.desc {
+  font-size: 2.0rem;
+}
+
+
+#descriptionMain{
+  font-size: 1.3rem
+}
+
 
 #profilepic {
   max-width: 20rem; /* Set the maximum width */
@@ -75,9 +133,6 @@ body {
   outline: red 1px solid;
 } */
 
-#descriptionMain{
-  font-size: 1.2rem
-}
 
 
 
@@ -121,9 +176,6 @@ filter: blur(10px);
   margin: auto;
 }
 
-.desc {
-  font-size: 2.0rem;
-}
 
 #imgcont{
   height: 10rem;
