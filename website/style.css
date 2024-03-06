@@ -50,6 +50,8 @@ body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrollbar */
+  color: #ffffff!important;
+  
 }
 
 .container-fluid {
@@ -60,9 +62,10 @@ body, html {
 body {
   
   max-width: 100%;
-  background-color: #D9D9D9;
+
   font-family: "SF Display Regular" !important; 
-  color: #1d1d1d !important;
+  color: #FFFFFF !important;
+  background: #131313 !important;
 }
 
 
@@ -70,7 +73,7 @@ body {
 #Timeless{
   font-family: "SF Display Bold" !important; 
   letter-spacing: .26rem;
-  color: #3d3d3d;
+  color: #ffffff;
 }
 
 #title {
@@ -84,7 +87,11 @@ body {
 
 }
 
- #description{
+.icon{
+  filter: invert(99%) sepia(0%) saturate(510%) hue-rotate(174deg) brightness(86%) contrast(99%);
+}
+
+#description{
   font-size: 1.6rem;
 margin-top: 5rem;
 
@@ -107,9 +114,13 @@ margin-top: 5rem;
   font-size: 2.0rem;
 }
 
+.cardcont{
+  background: #131313 !important;
+}
 
 #descriptionMain{
-  font-size: 1.3rem
+  font-size: 1.2rem;
+  color:#6d6d6d !important;
 }
 
 
