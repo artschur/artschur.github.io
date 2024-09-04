@@ -39,22 +39,8 @@ Backend development, TailwindCSS, Server-side operatons, CRUD development. Im st
 
 **Live Demo:** [To-Do List App](https://todo-arthur.netlify.app/app/index.html)
 
-## Getting Started
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-
-```
-git clone https://github.com/artschur/portfolio.git
-```
-
-2. Open the `index.html` file in your preferred web browser.
-
 ## Contact
 
 For any questions or feedback, feel free to reach out to me:
 
 - LinkedIn: [Arthur Schurhaus](https://www.linkedin.com/in/arthurschur/)
-- GitHub: [artschur](https://github.com/artschur)
-- Instagram: [@arthurschur](https://www.instagram.com/arthurschur/)
