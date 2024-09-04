@@ -1,15 +1,7 @@
-Sure, here's a suggested README for your portfolio website:
 
 # Arthur Schurhaus - Personal Portfolio
 
 This is the source code for my personal portfolio website, showcasing my projects and experiences as an aspiring web developer.
-
-## Features
-
-- Responsive design using Bootstrap and custom CSS
-- Smooth scrolling and interactive elements
-- Displaying information about my background, skills, and projects
-- Links to my social media profiles and project demos
 
 ## Technologies Used
 
@@ -19,7 +11,9 @@ This is the source code for my personal portfolio website, showcasing my project
 - Bootstrap 5
 - SVG for the background design
 
-## Project Highlights
+## Speacialities
+Backend development, TailwindCSS, Server-side operatons, CRUD development. Im studying mainly Flask right now.
+## My projects
 
 ### 1. Imofácil (Real Estate Management)
 
