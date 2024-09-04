@@ -1,5 +1,6 @@
 
 # Arthur Schurhaus - Personal Portfolio
+![My Image](/artschur.github.io/website/src/img/Capture-2024-09-04-111035.png)
 
 This is the source code for my personal portfolio website, showcasing my projects and experiences as an aspiring web developer.
 
